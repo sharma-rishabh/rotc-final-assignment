@@ -60,7 +60,7 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: /tmp/data
+    path: /Users/rishabh/workspace/persistent
   storageClassName: local-path
   persistentVolumeReclaimPolicy: Retain
 
